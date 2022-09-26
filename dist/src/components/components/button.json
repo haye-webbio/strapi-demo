@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_components_buttons",
+    "info": {
+        "displayName": "Button",
+        "icon": "hand-pointer"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "href": {
+            "type": "string"
+        }
+    }
+}
