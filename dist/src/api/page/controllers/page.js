@@ -5,7 +5,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const strapi_1 = require("@strapi/strapi");
 exports.default = strapi_1.factories.createCoreController("api::page.page", ({ strapi }) => ({
-    async search() {
-        throw new Error("Method not implemented.");
+    async helloWorld() {
+        return strapi.service("api::page.page").helloWorld();
     },
 }));

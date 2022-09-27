@@ -2,8 +2,8 @@ export default {
   routes: [
     {
       method: "GET",
-      path: "/page/search",
-      handler: "page.search",
+      path: "/page/hello-world",
+      handler: "page.helloWorld",
     },
   ],
 };
